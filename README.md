@@ -6,7 +6,6 @@ This repository demonstrates how to compute AUCell-based enrichment scores for r
 
 - `AUCell_scoring.R`: Main R script to calculate AUCell scores and add them to the Seurat object.
 - `gene_sets/`: Contains RDS files of gene lists for different relapse-associated modules (`risk`, `protect`, `trm`).
-- `example_exprMat.rds`: (Optional) Example expression matrix.
 - `scRNA_with_AUCell.rds`: Output Seurat object with AUCell scores added to metadata.
 
 ## How to use
